@@ -76,7 +76,7 @@ const Presale = () => {
     <input
       type="number"
       min="1"
-      className="bg-gray-700 px-4 py-2 w-full sm:w-30 text-white border border-gray-600 focus:outline-none focus:border-yellow-500"
+      className="bg-gray-700 px-4 py-2 w-full sm:w-38 text-white border border-gray-600 focus:outline-none focus:border-yellow-500"
       defaultValue={1}
     />
    

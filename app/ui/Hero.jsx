@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="mt-12 w-full">
         <img
           src="/Images/hero.png"
-          alt="Hero full width"
+          alt="Hero img"
           className="w-full h-[150px] sm:h-[100px] md:h-[200px] lg:h-[300px] object-cover"
         />
       </div>
