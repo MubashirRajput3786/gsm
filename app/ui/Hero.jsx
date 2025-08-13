@@ -33,9 +33,7 @@ const Hero = () => {
   <button className="bg-white text-black px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition">
     Join Presale
   </button>
-  <button className="border border-gray-600 text-gray-400 px-6 py-2 rounded-md font-semibold hover:border-white hover:text-white transition">
-    White Whitepaper
-  </button>
+  
 </div>
 
     </section>
