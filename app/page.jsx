@@ -6,6 +6,7 @@ import Partner from './ui/Partner'
 import Coinlaunch from './ui/Coinlaunch'
 import Truestyle from './ui/Truestyle'
 import Brand from './ui/Brand'
+import Fashion from './ui/Fashion'
 const page = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const page = () => {
      <Coinlaunch />
      <Truestyle />
      <Brand />
+     <Fashion />
   
     </>
   )
