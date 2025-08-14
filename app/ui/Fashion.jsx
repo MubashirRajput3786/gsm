@@ -8,7 +8,7 @@ const Fashion = () => {
       {/* Right Side Image with Vignette Filter */}
       <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden bg-black order-2 md:order-1">
         <img
-          src="/images/fashion.png"
+          src="/Images/fashion.png"
           alt="Brand Growth"
           className="w-full h-full object-contain"
         />
