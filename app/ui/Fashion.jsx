@@ -23,7 +23,7 @@ const Fashion = () => {
 
       {/* Left Side Content (but on mobile it comes first) */}
       <div className="space-y-6 order-1 md:order-2">
-        <p className="text-base sm:text-lg p-3 border w-fit">Early Supporters</p>
+        <p className="text-base sm:text-lg p-3 border border-gray-500 w-fit">Early Supporters</p>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl leading-tight">
           Own the Future of Fashion and Blockchain
         </h1>
@@ -60,7 +60,7 @@ const Fashion = () => {
           </div>
         </div>
 
-        <button className="text-black bg-white px-6 sm:px-9 py-3 rounded-lg font-medium block mx-auto md:mx-0">
+        <button className="text-black cursor-pointer bg-white px-6 sm:px-9 py-3 rounded-lg font-medium block mx-auto md:mx-0">
           Get Started
         </button>
       </div>

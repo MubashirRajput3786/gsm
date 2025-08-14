@@ -6,7 +6,7 @@ const Brand = () => {
     <div className="container my-6 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-[1500px] mx-auto p-4">
       {/* Left Side Content */}
       <div className="space-y-6">
-        <p className="text-base sm:text-lg p-3 border w-fit">Brands</p>
+        <p className="text-base sm:text-lg p-3 border border-gray-400 w-fit">Brands</p>
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
           Turn Loyalty, Resale,
           and Authenticity into
@@ -46,7 +46,7 @@ const Brand = () => {
           </div>
         </div>
 
-        <button className="text-black bg-white px-10 sm:px-9 py-3 rounded-lg font-medium block mx-auto md:mx-0">
+        <button className="text-black cursor-pointer bg-white px-10 sm:px-9 py-3 rounded-lg font-medium block mx-auto md:mx-0">
   Get Started
 </button>
 
