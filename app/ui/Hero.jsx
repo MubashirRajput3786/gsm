@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-black text-white py-12 px-4 sm:py-16">
+    <section className="bg-black text-white py-12 px-3 sm:py-16">
       <div className="max-w-[1500px] mx-auto text-center space-y-6 px-2 sm:px-0">
         {/* Small top text */}
         <p className="uppercase text-xs sm:text-sm text-gray-500 tracking-widest">Join Presale</p>
