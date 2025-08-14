@@ -1,7 +1,9 @@
 import React from 'react';
-import { FaBullseye, FaCheck } from 'react-icons/fa';
-import { TbSettingsDollar } from "react-icons/tb";
-import { GiBullseye } from "react-icons/gi";
+import { FaCheck } from 'react-icons/fa';
+import { BsCoin } from "react-icons/bs";
+import { ImProfile } from "react-icons/im";
+import { FaHandHoldingDollar } from "react-icons/fa6";
+
 
 const Coinlaunch = () => {
   return (
@@ -22,90 +24,77 @@ const Coinlaunch = () => {
         <div className="grid md:grid-cols-4 gap- mt-10">
           {/* Card 1 */}
           <div className="bg-black p-6  shadow-md text-white border border-gray-700">
-            <FaBullseye className="text-4xl mb-4 text-gray-400" />
-            <h3 className="text-xl font-bold mb-4">Key Goals:</h3>
+            <BsCoin className="text-4xl mb-4 text-gray-400" />
+            <h3 className="text-xl font-bold mb-4">Get paid of what You Already Do</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Coin Presale & TGE</p>
+                <FaCheck  /> <p className='text-gray-400'>Earn GSM coins for participating in brand campaigns</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck /> <p className='text-gray-400'>Smart Contract Development</p>
+                <FaCheck size={25} /> <p className='text-gray-400'>Get rewarded for wearing, sharing, reselling, and promoting your favorite clothes</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck /> <p className='text-gray-400'>Tokenomics, Whitepaper, Pitch Deck</p>
-              </li>
-              <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Community Building</p>
-              </li>
-              <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Strategic Partnerships</p>
+                <FaCheck /> <p className='text-gray-400'>Turn your personal style into a source of real value</p>
               </li>
             </ul>
           </div>
 
           {/* Card 2 */}
           <div className="bg-black p-6  shadow-md text-white border border-gray-700">
-            <TbSettingsDollar className="text-4xl mb-4 text-gray-400" />
-            <h3 className="text-xl font-bold mb-4">Coin Utilities:</h3>
+            <ImProfile className="text-4xl mb-4 text-gray-400" />
+            <h3 className="text-xl font-bold mb-4">Exculsive Access to campaigns And Drops</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
-                <FaCheck /> <p className='text-gray-400'>Reward Redemption</p>
+                <FaCheck /> <p className='text-gray-400'>Early access to new drops</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Platform Access</p>
+                <FaCheck  /> <p className='text-gray-400'>VIP invites to events</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Staking & Loyalty</p>
+                <FaCheck  /> <p className='text-gray-400'>Limited-edition rewards and wearables</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Brand Partnerships</p>
+                <FaCheck  /> <p className='text-gray-400'>Access to private resale markets or loyalty bonuses</p>
               </li>
             </ul>
           </div>
 
           {/* Card 3 */}
           <div className="bg-black p-6  shadow-md text-white border border-gray-700">
-            <GiBullseye className="text-4xl mb-4 text-gray-400" />
-            <h3 className="text-xl font-bold mb-4">Presale Strategy:</h3>
+            <FaHandHoldingDollar className="text-4xl mb-4 text-gray-400" />
+            <h3 className="text-xl font-bold mb-4">Prove YourAuthenticity and Ownership </h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Whitelisting + KYC Enabled</p>
+                <FaCheck  /> <p className='text-gray-400'>Instant proof of ownership</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Anti-Whale & Anti-Bot Protections</p>
+                <FaCheck  /> <p className='text-gray-400'>Protection from counterfeits</p>
               </li>
               <li className="flex items-center gap-2">
                 <FaCheck  /> <p className='text-gray-400'>Smart Contract Audited by Certik</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Exchange Listings (DEX + CEX)</p>
+                <FaCheck size={25}  /> <p className='text-gray-400'>Ability to resell securely, with bonuses for verified owners</p>
               </li>
-              <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Live Coin Price Widget</p>
-              </li>
+             
             </ul>
           </div>
 
           {/* card 4*/}
           <div className="bg-black p-6  shadow-md text-white border border-gray-700">
-            <GiBullseye className="text-4xl mb-4 text-gray-400" />
-            <h3 className="text-xl font-bold mb-4">Presale Strategy:</h3>
+            <BsCoin className="text-4xl mb-4 text-gray-400" />
+            <h3 className="text-xl font-bold mb-4">Earn on Resale - Not just Brands</h3>
             <ul className="space-y-2">
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Whitelisting + KYC Enabled</p>
+                <FaCheck  /> <p className='text-gray-400'>Increased resale value for authentic owners</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Anti-Whale & Anti-Bot Protections</p>
+                <FaCheck  /> <p className='text-gray-400'>Seamless ownership transfers</p>
               </li>
               <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Smart Contract Audited by Certik</p>
+                <FaCheck  /> <p className='text-gray-400'>Earn additional rewards even after you sell your items</p>
               </li>
-              <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Exchange Listings (DEX + CEX)</p>
-              </li>
-              <li className="flex items-center gap-2">
-                <FaCheck  /> <p className='text-gray-400'>Live Coin Price Widget</p>
-              </li>
+            
             </ul>
           </div>
           

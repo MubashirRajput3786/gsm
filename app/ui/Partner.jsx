@@ -15,7 +15,7 @@ const Partner = () => {
   return (
     <div className="container max-w-[1500px] mx-auto py-12 px-4">
       <h1 className="text-4xl text-center text-white mb-8">Our Partners</h1>
-      <div className=" max-w-[900px] mx-auto flex flex-wrap  justify-center gap-[6px]">
+      <div className=" max-w-[900px] mx-auto flex flex-wrap  justify-center ">
         {partners.map((src, index) => (
           <div
             key={index}
