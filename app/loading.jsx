@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
+import { RingLoader } from "react-spinners";
 
-const Loading = () => {
+export default function Loading() {
   return (
     <div className="flex items-center justify-center h-screen">
-      <h1 className="text-4xl text-red-500 animate-ping">Loading...</h1>
+      <RingLoader color="#e11d48" size={80} />
     </div>
   );
-};
-
-export default Loading;
+}

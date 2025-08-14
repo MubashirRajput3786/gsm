@@ -9,6 +9,7 @@ import Brand from './ui/Brand'
 const page = () => {
   return (
     <>
+    
      <Navbar />
      <Hero />
      <Presale />
@@ -16,6 +17,7 @@ const page = () => {
      <Coinlaunch />
      <Truestyle />
      <Brand />
+  
     </>
   )
 }
