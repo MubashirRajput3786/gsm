@@ -19,7 +19,9 @@ const Coindistribution = () => {
     "Marketing (2,000,000,000 coins)",
     "Liquidity (1,200,000,000 coins)",
     "CEX (1,000,000,000 coins) Burns",
-    "Pre-Sale (6,000,000,000 coins)"
+    "Pre-Sale (6,000,000,000 coins)",
+    "Team (2,400,000,000 coins)",
+    "Project Funds (2,000,000,000 coins)"
   ];
 
   const colors = [
@@ -28,11 +30,13 @@ const Coindistribution = () => {
     "#FFCE56",
     "#4BC0C0",
     "#9966FF",
-    "#900a83"
+    "#EE4B2B",
+    "#454B1B",
+    "#1447E6",
   ];
 
   // Actual values
-  const values = [2400000000, 2000000000, 2000000000, 1200000000, 1000000000, 6000000000];
+  const values = [2400000000, 2000000000, 2000000000, 1200000000, 1000000000, 6000000000, 2400000000, 2000000000];
   const total = values.reduce((a, b) => a + b, 0);
 
   const data = {
@@ -87,7 +91,7 @@ const Coindistribution = () => {
       </p>
 
       {/* Chart on top */}
-      <div className="max-w-[400px] mx-auto my-10">
+      <div className="max-w-[500px] mx-auto my-10">
         <Doughnut data={data} options={options} />
       </div>
 

@@ -8,6 +8,10 @@ import Truestyle from './ui/Truestyle'
 import Brand from './ui/Brand'
 import Fashion from './ui/Fashion'
 import Coindistibution from './ui/Coindistibution'
+import Road from './ui/Road'
+import Faq from './ui/Faq'
+import Revo from './ui/Revo'
+import Footer from './ui/Footer'
 const page = () => {
   return (
     <>
@@ -21,7 +25,10 @@ const page = () => {
      <Brand />
      <Fashion />
      <Coindistibution/>
-  
+     <Road/>
+     <Faq />
+  <Revo/>
+  <Footer />
     </>
   )
 }
