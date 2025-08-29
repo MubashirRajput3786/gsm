@@ -8,9 +8,9 @@ const Coinlaunch = () => {
     <>
       <div className="container max-w-[1500px] p-3 my-9 mx-auto">
         {/* Top Headings */}
-        <h5 className="mx-auto text-center text-gray-400 p-3 font-bold border border-gray-500 w-fit rounded-md">
+        <p className="mx-auto text-center text-gray-400 p-3 font-bold border border-gray-500 w-fit rounded-md">
           Phase 1
-        </h5>
+        </p>
         <h1 className="text-6xl text-gray-500 text-center my-4">
           GSM Coin Launch
         </h1>

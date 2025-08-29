@@ -79,7 +79,7 @@ const Faq = () => {
                 className="border border-gray-300 rounded-lg overflow-hidden mb-3 shadow-sm hover:shadow-md transition-all duration-300"
               >
                 <AccordionItemHeading>
-                  <AccordionItemButton className="bg-gray-900 px-5 py-3 text-lg font-semibold flex justify-between items-center hover:bg-gray-700 transition-colors duration-200">
+                  <AccordionItemButton className="bg-[#0d0d0d] px-5 py-3 text-lg font-semibold flex justify-between items-center hover:bg-gray-700 transition-colors duration-200">
                     {item.question}
                     <span className="text-gray-500 text-xl">+</span>
                   </AccordionItemButton>

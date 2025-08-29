@@ -55,7 +55,7 @@ const Brand = () => {
       {/* Right Side Image with Vignette Filter */}
       <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden">
         <img
-          src="/Images/grow.png"
+          src="/Images/gro.png"
           alt="Brand Growth"
           className="w-full h-full object-containe"
         />

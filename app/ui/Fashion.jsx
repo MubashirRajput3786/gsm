@@ -6,9 +6,9 @@ const Fashion = () => {
     <div className="container grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-[1500px] mx-auto p-4">
       
       {/* Right Side Image with Vignette Filter */}
-      <div className="relative w-full h-[300px] sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden bg-black order-2 md:order-1">
+      <div className="relative w-full h-full sm:h-[400px] lg:h-[600px] rounded-2xl overflow-hidden bg-black order-2 md:order-1">
         <img
-          src="/Images/fashion.png"
+          src="/Images/img.png"
           alt="Brand Growth"
           className="w-full h-full object-contain"
         />

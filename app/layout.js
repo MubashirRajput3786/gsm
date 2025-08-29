@@ -1,10 +1,18 @@
-import { Inter } from "next/font/google";
+import { Inter, Wix_Madefor_Display } from "next/font/google";
 import "./globals.css";
 
+// Paragraph font
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
-  weight: ["400", "700"], // optional, specify weights you want
+  weight: ["400", "500", "700"], // you can adjust weights
+});
+
+// Heading font
+const wix = Wix_Madefor_Display({
+  variable: "--font-wix",
+  subsets: ["latin"],
+  weight: ["400", "600", "700"], // you can adjust weights
 });
 
 export const metadata = {
@@ -15,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${inter.variable} ${wix.variable} antialiased`}>
         {children}
       </body>
     </html>
